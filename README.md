@@ -34,6 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O habits um app para ajudar a rastrear hábitos.
 
+- [ Visite o projeto online](https://letbarros2.github.io/nlw-setup/)
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/qpPW1i1BlL43PmDFhprJrw/Habits-(e)-(Community)?t=bRjYIDEigMIzzY6l-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
