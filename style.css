@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  /* tirando todos os espaços e margens */
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #09090a;
+  /* valor hexadecimal no background-color */
+  color: white;
+  /* display: grid;
+  place-items: center; */
+  /* REMOVENDO CENTRALIZAÇÃO */
+  height: 100vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* pegar toda a extenção do header e vai justificar o conteudo */
+  padding: 48px;
+  position: fixed;
+  width: 100%;
+  background-color: #09090a;
+}
+button {
+  padding: 16px 24px;
+  /* primeira parte em cima e embaixo */
+  /* segunda parte 24 laterais */
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* usar quando o elemento é flex  */
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+#form-habits {
+  display: flex;
+  padding: 182px 48px 48px;
+}
+.habits {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 57px;
+}
+.habit {
+  /* border: 1px solid red; */
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.day div {
+  margin-bottom: 8px;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  line-height: 125%;
+  color: #a1a1aa;
+  text-align: center;
+}
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px; /*altura */
+  height: 64px; /*largura*/
+  border: 2px solid #27272a;
+  border-radius: 8px;
+  background: #18181b;
+}
+input:checked {
+  /* CONHECIDO TAMBÉM COMO PSEUDO-SELECTOR */
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
